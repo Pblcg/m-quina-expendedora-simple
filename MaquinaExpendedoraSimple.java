@@ -31,11 +31,16 @@ public class MaquinaExpendedoraSimple {
         estacionOrigen = "León";
         estacionDestino = destino;
     }
+    
     /**
      * Devuelve el dinero acumulado
      */
     public int getTotalDineroAcumulado() {
         return totalDineroAcumulado;
+    }
+    
+    public void setPrecioBillete(int nuevoPrecio) {
+        precioBillete = nuevoPrecio;
     }
 
     /**
